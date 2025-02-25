@@ -57,11 +57,13 @@
 }
 
 .form-group input {
+  width: 100%;
   padding: 0.75rem;
   border: 1px solid var(--border-color);
   border-radius: 4px;
   font-size: 1rem;
   transition: border-color 0.3s;
+  box-sizing: border-box;
 }
 
 .form-group input:focus {
@@ -71,6 +73,12 @@
 
 .password-input-wrapper {
   position: relative;
+  width: 100%; 
+}
+
+.password-input-wrapper input {
+  width: 100%; 
+  padding-right: 2.5rem;
 }
 
 .password-toggle {
